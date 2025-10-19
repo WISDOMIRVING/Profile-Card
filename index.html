@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Profile-Card</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <article data-testid="test-profile-card" class="profile-card">
+        <header>
+            <h2 data-testid="test-user-name" class="profile-name">WISDOM-IRVING MEDIA</h2>
+            </header>
+            <figure>
+    <img data-testid="test-user-avatar" src="my-pics.png" alt="my Profile picture"/>
+    <figcaption>Wiseman-Tech De-Techman</figcaption>
+   </figure>
+        <p data-testid="test-user-bio" class="my-bio">Passionate Frontend Developer who loves crafting beautiful, accessible, and responsive web experiences.</p>
+   
+   <p>
+    Current Time(ms):
+   <span data-testid="test-user-time" id="user-time"></span>
+   </p>
+   <nav data-testid="test-user-social-links" aria-label="Social links">
+    <ul>
+       <li><a data-testid="test-user-social-twitter" href="https://twitter.com/" target="_blank" rel="noo">Twitter</a></li>
+       <li><a  data-testid="test-user-social-linkedin" href="https://LindIn.com/" target="_blank" rel="noo">LindIn</a></li>
+           <li><a  data-testid="test-user-social-github" href="https://github.com/" target="_blank" rel="noo">GitHub</a></li>
+    </ul>
+   </nav>
+   <div>
+   <section data-testid="test-user-hobbies">
+    <h3>My Hobbies</h3>
+    <ul>
+        <li>Coding</li>
+        <li>Singing</li>
+        <li>Cooking</li>
+    </ul>
+   </section>
+      <section data-testid="test-user-dislikes">
+    <h3>Dislikes</h3>
+    <ul>
+        <li>Procrastination</li>
+        <li>Bugs</li>
+        <li>Noise</li>
+    </ul>
+   </section>
+</div>
+    </article>
+    <script src="script.js"></script>
+</body>
+</html>
